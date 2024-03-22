@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Setări</title>
+    <link rel="stylesheet" type="text/css" href="setari.css">
+    <script src="home.js"></script>
+</head>
+<body
+onload = Data();>
+    <nav>
+        <ul>
+          <p>Current time: <span id=setData></span></p>
+            <li><a href="./home.html">Acasă</a></li>
+            <li><a href="./portrete.html">Picturi</a></li>
+            <li><a href="./sculpt.html">Sculpturi</a></li>
+            <li><a href="./muzica.html">Muzică</a></li>
+            <li><a href="./setari.html">Setări</a></li>
+            <li><a href="./login.html">Autentificare</a></li>
+        </ul>
+    </nav>
+        
+    <div class="container">
+      <div class="sidebar">
+               <div class="logo">
+        <img src="./setari/sushi.jpg" alt="Logo">
+          <h1>Sushi's Art</h1>
+        </div>
+        <ul>
+            <li><a href="#">Istoricul meu</a></li>
+            <li><a href="#">Termeni și condiții</a></li>
+            <li><a href="#">Suport</a></li>
+        </div>
+        <div class="main">
+       <h2>Setări cont</h2>
+        <form>
+            <label for="username">Nume de utilizator:</label>
+          <input type="text" id="username" name="username" value="Sushi">
+          
+        </form>
+      </div>
+    </div>
+      <div class="settings-container">
+          <label for="language">Limba preferată:</label>
+          <select id="language" name="language">
+            <option value="en">Engleză</option>
+            <option value="fr">Franceză</option>
+            <option value="de">Germană</option>
+            <option value="es">Spaniolă</option>
+          </select><br>
+          <button type="button" class="change-password">Schimbă parola</button>
+          <input type="submit" value="Salvează">
+      </div>
+      <div class="contact-info">
+        <h3>Informații de contact:</h3>
+        <p>Număr de telefon: 123-456-7890</p>
+        <p>Adresă de e-mail: contact@site.com</p>
+      </div>
+</body>
+      

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arta</title>    
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <script src="home.js"></script>
+</head>
+<style>
+    body{
+        background-color: #DFA67B;
+    }
+</style>
+    <body>
+
+        <div class="form-container">
+
+            <form action="login.php" >
+            <label for="username">Nume utilizator:</label>
+            <input type="text" id="username" name="username"><br>
+
+            <label for="password">Parola:</label>
+            <input type="password" id="password" name="password"><br>
+
+            <button type="button" onclick="login()">Autentificare</button>
+            </form>
+        </div>
+
+        <script src="login.js"></script>
+    </body>
+</html>

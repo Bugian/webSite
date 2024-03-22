@@ -1,0 +1,174 @@
+/*body{
+    /*background: radial-gradient(circle, #EAE0DA, #FADA9D);
+   
+}
+*/
+
+
+.info-container{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(circle, #1900ff, #ff8800f9);
+}
+
+
+
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    flex: 1;
+    text-align: center;
+}
+
+nav {
+    background-image: radial-gradient(circle, #ff4400, #ff8800f9);
+}
+
+nav ul li a{
+    color: #d0ec00;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    border-radius: 20px;
+}
+
+nav ul li a:hover{
+    background-color: #fff;
+    color: #c41111;
+}
+
+.date-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    font-size: 18px;
+    color: #000000;
+    }
+
+.image-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.image-list li{
+    margin: 0 25px;
+    margin-top: 115px;
+}
+
+.image-list img{
+    width: 200px;
+    height: 200px;
+}
+
+.image-list li img {
+    transition: transform 0.5s ease-in-out;
+}
+
+.image-list li img:hover {
+    transform: rotate(360deg);
+}
+
+.image-list li {
+    position: relative;
+  }
+  
+  .image-list li .additional-images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+  
+  .image-list li:hover .additional-images {
+    display: block;
+  }
+
+.citat{
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.citat blockquote p{
+    color:	#fffdbf;
+}
+
+blockquote{
+    font-size: 24px;
+    font-style: italic;
+    color: #986d5c;
+}
+
+.portret-list .image-container {
+    position: relative;
+}
+
+.portret-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.portret-list li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.portret-list img{
+    max-width: 100%;
+    height: 100%;
+}
+
+.portret-description{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.portret-list li {
+    position: relative;
+  }
+  
+  .image-description {
+    display: none;
+  }
+  
+  #image-info {
+    position: absolute;
+    top: 0;
+    left: 11%;
+    padding: 10px;
+    background-color: #f1f1f1;
+    text-align: justify;
+  }
+  
+
+.imagine {
+    background-color: radial-gradient(circle, #EAE0DA, #FADA9D);
+}
+
+.portret-list li p{
+    color: #fffdbf;
+}
+
+.portret-list .image-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+

@@ -1,0 +1,23 @@
+<html>
+<body>
+    <button onmousedown="myFunction()">Apasă-mă</button>
+
+    <script>
+      function myFunction() {
+        alert("Butonul a fost apăsat!");
+      }
+    </script>
+
+
+
+
+
+<div onmousemove="Functia(event)">Mișcă mouse-ul aici</div>
+
+<script>
+  function Functia(event) {
+    console.log("Coordonate mouse: X=" + event.clientX + ", Y=" + event.clientY);
+  }
+</script>
+</body>
+</html>

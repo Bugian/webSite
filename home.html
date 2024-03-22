@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <script src="home.js"></script>
+</head>
+<body 
+onload = Data();
+onload = showAdditionalImages(event);
+onload = hideAdditionalImages(event);
+background="./background/brick.jpg"
+background-size="cover"
+margin="0"
+padding="0"
+height="100%">
+  
+    <nav>
+        <ul>
+            <p>Current time: <span id=setData></span></p>
+            <li><a href="./home.html">Acasă</a></li>
+            <li><a href="./portrete.html">Picturi</a></li>
+            <li><a href="./sculpt.html">Sculpturi</a></li>
+            <li><a href="./muzica.html">Muzică</a></li>
+            <li><a href="./setari.html">Setări</a></li>
+            <li><a href="php/login.php">Autentificare</a></li>
+            
+        </ul>
+    </nav>
+    <br>
+    </div>
+    <script>
+        const d = new Date();
+        document.getElementById("demo").innerHTML = d;
+        </script>
+    <div class="citat">
+        <blockquote>
+            <p>Arta, este o modalitate de a iubi.</p>
+        </blockquote>
+    </div>  
+        <ul class="image-list">
+            <li><img src="homejpg/art1.jpg">
+            <div class = "additional-images">
+                <img src = "additional content/art2.jpg">
+                <img src = "additional content/art3.jpg">
+                <img src = "additional content/art4.jpg">
+            </div>
+            </li>
+            <li><img src="homejpg/cinzano.webp">
+            <div class = "additional-images">
+                <img src = "additional content/cinzano1.jpg">
+                <img src = "additional content/cinzano2.jpg">
+                <img src = "additional content/cinzano3.jpg">
+            </div>
+            </li>
+            <li><img src="homejpg/art2.jpg">
+            <div class = "additional-images">
+                <img src = "additional content/poza31.jpeg">
+                <img src = "additional content/poza32.jpeg">
+                <img src = "additional content/poza33.jpeg">
+            </div>
+            </li>
+            <li><img src="creion/creionCart.jpg">   
+            <div class= "additional-images">
+                <img src = "additional content/creion1.jpeg">
+                <img src = "additional content/creion2.jpeg">
+                <img src = "additional content/creion3.jpeg">
+            </div>
+            </li>
+            <li><img src="creion/creionCasa.jpg">
+            <div class = "additional-images">
+                <img src = "additional content/cp1.jpeg">
+                <img src = "additional content/cp2.jpeg">
+                <img src = "additional content/cp3.jpeg">
+            </div>
+            </li>
+            <li><img src="creion/creionFlori.jpg">
+            <div class = "additional-images">
+                <img src = "additional content/ulcior1.jpeg">
+                <img src = "additional content/ulcior2.jpeg">
+                <img src = "additional content/ulcior3.jpeg">
+            </div>
+            </li>
+            
+        </ul>
+    
+                
+    </body>
+</html>
+

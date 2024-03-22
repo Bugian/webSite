@@ -1,0 +1,83 @@
+body{
+    background: radial-gradient(circle, #E384FF, #FFF2CC);
+}
+form{
+    background: radial-gradient(circle, #3A1078, #FFF2CC);
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+label{
+    display:block;
+    margin-bottom: 10px;
+}
+
+input[type=text], input[type=password]{
+    width: 100%;
+    padding: 12px, 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=button]{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button[type="button"]{
+    background-color: #609966;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: black;
+    display: flex;
+    font-size: 16px;
+    margin-left: 80px;
+    margin-top: 20px;
+    cursor: pointer;
+    bottom: 0;
+    
+}
+
+button[type="button"] input[type="button"]{
+    background-color: #609966;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: center;
+    font-size: 16px;
+    margin: 0;
+    cursor: pointer;
+}
+
+button[type="button"] input[type="button"]:focus{
+    outline: none;
+}
+
+/*button[type="submit"]{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}*/
+
+
+
